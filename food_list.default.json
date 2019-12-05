@@ -1,0 +1,6 @@
+{
+    "classes":[],
+    "food":[
+        {"name":"example", "classes":"test", "price_up":0, "price_low":100}
+    ]
+}

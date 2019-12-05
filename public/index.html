@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Foody, Your food finding assistant</title>
+        <link rel="stylesheet" type="text/css" href="app.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Foody</h1>
+            <h2>Help you determine your meal</h2>
+        </div>
+        <div class="row dot_border">
+            <div class="invisible" id="div_add">
+                <p class="label" id="label_name">Food Name</p>
+                <input id="in_name" placeholder="Name"></input>
+            </div>
+            <div>
+                <p class="label" id="label_class">Category</p>
+                <select id="select_class">
+                </select>
+            </div>
+            <div>
+                <p class="label" id="label_price">Price</p>
+                <input id="in_price_up" placeholder="500"></input>
+                <span class="label">~</span>
+                <input id="in_price_low" placeholder="0"></input>
+            </div>
+        </div>
+        <div>
+        <button id="btn_submit">Random</button>
+        <button id="btn_add">+</button>
+        <div class="row invisible" id="message_board">
+            <p id="info"></p>
+        </div>
+        </div>
+        <div class="row show_board" id="result_list">
+        </div>
+    </body>
+</html>
+
